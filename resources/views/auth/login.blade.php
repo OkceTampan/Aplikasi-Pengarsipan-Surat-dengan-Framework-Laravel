@@ -80,11 +80,11 @@
                                 @csrf
                                 @method('post')
                                 <div class="mb-3">
-                                    <input type="email" name="email" class="form-control form-control-lg" value="{{ old('email') ?? 'okcewivern@gmail.com'}}" aria-label="Email" placeholder="Email">
+                                    <input type="email" name="email" class="form-control form-control-lg" value="{{ old('email') ?? '...'}}" aria-label="Email" placeholder="Email">
                                     @error('email') <p class="text-danger text-xs pt-1"> {{$message}} </p>@enderror
                                 </div>
                                 <div class="mb-3">
-                                    <input type="password" name="password" class="form-control form-control-lg" aria-label="Password" value="Okce09.10." placeholder="Password">
+                                    <input type="password" name="password" class="form-control form-control-lg" aria-label="Password" value="..." placeholder="Password">
                                     @error('password') <p class="text-danger text-xs pt-1"> {{$message}} </p>@enderror
                                 </div>
                                 {{-- <div class="form-check form-switch mb-3">
