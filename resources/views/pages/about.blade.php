@@ -28,7 +28,7 @@
                                 <tr>
                                     <td><strong>Tanggal</strong></td>
                                     <td>:</td>
-                                    <td>15 November 2023</td>
+                                    <td>09 Oktober 2023</td>
                                 </tr>
                             </table>
                         </div>
